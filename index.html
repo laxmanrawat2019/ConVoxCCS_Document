@@ -14,19 +14,345 @@
 <body>
     <main>
 
-        <h1 class="faq-heading">FAQ'S</h1>
+        <h1 class="faq-heading">ConvoxCCS_Note</h1>
         <section class="faq-container">
             <div class="faq-one">
 
                 <!-- faq question -->
-                <h1 class="faq-page">What is an FAQ Page?</h1>
+                <h1 class="faq-page">Linux Commands</h1>
 
-                <!-- faq answer -->
+                <!-- faq answls
+	ls /root/Desktop/playdateandtime
+	ls ../REALSHOPPEE_ALL_BACKUPS/
+ll
+	ll -t /root/Desktop/playdateandtime
+	ll -r../REALSHOPPEE_ALL_BACKUPS/
+cd
+	cd  playdateandtime
+	cd /root/Desktop/playdateandtime
+	cd ../REALSHOPPEE_ALL_BACKUPS/
+
+pwd
+mv
+	mv test.pl abcd.pl
+	ll -t
+	ll before_implement
+	mv abcd.pl before_implement/
+	ll before_implement
+	mv before_implement/ /var/www/html/
+	ll /var/www/html/
+	ll /var/www/html/before_implement/
+	ll before_implement
+	mv /var/www/html/before_implement/ .
+
+mkdir
+	mkdir /var/www/html/test
+	ll /var/www/html/test/var/w
+
+	ll /var/www/html/test
+	mkdir -p test1/test2/test3
+	ll test1/test2/test3
+	ll test1/test2/
+	ll test1/
+	ll test1/test2/test4
+	mkdir -p test1/test2/test4
+	ll
+	mkdir -p test1 test2 test4	
+touch
+	vim test4/abcd.txt
+	touch test4/123.txt
+rm
+	rm -r test4/
+	rm -rf test4/
+	mkdir test4
+	touch test4/123.txt
+	rm test4/123.txt 
+	rm  -f test4/123.txt
+
+cp
+	cp /root/Desktop/before_implement/abcd.pl .
+	ll
+	cp /root/Desktop/before_implement/abcd.pl .
+	cp /root/Desktop/before_implement/abcd.pl xyz.pl
+	ll
+	cp /root/Desktop/before_implement/abcd.pl abcd.pl
+	pwd
+	cp ../../before_implement/ test4/
+	cp -r ../../before_implement/ test4/
+	ll test4/
+	cp -r ../../before_implement/ test4/
+	cp 123.pl abcd.txt xyz.log /var/www/hml/
+	cp /var/www/hml/123.pl /var/www/hml/abcd.txt /var/www/hml/xyz.log /root/Desktop/
+
+scp
+	scp -r ../../before_implement/ test4/
+	scp -r ../../before_implement/ test4/test5/
+
+	scp test4/before_implement/abcd.pl 192.168.1.4:/root/Desktop/
+	scp test4/before_implement/abcd.pl 192.168.1.44:/root/Desktop/
+	scp test4/before_implement/abcd.pl 192.168.1.44:/root/Desktop/11111.pl
+	scp test4/before_implement/ 192.168.1.44:/root/Desktop/ABCD
+	scp -r test4/before_implement/ 192.168.1.44:/root/Desktop/ABCD
+	scp -r test4/before_implement/ 192.168.1.44:/root/Desktop/ABCD/
+	ll
+	scp  -r 192.168.1.44:/root/Desktop/ABCD/ .
+	scp -P22 total.txt 192.168.1.44:/root/Desktop/
+	rm -rf total.txt 
+	scp -P22 192.168.1.44:/root/Desktop/ /root/
+	scp -P22 192.168.1.44:/root/Desktop/total.txt /root/
+	scp -P224 192.168.1.44:/root/Desktop/total.txt /root/
+
+
+ping 
+	ping 192.168.0.193
+	ping 192.168.1.44
+	ping google.com
+	ping googlqqqqqqqqqqqqqqe.com
+	ping 192.168.1.44.88
+
+chmod
+	ll 
+	chmod -R 777 abcd.pl xyz.pl 
+	ll 
+	chmod -R 774 abcd.pl xyz.pl 
+	ll
+	chmod -R 775 abcd.pl xyz.pl 
+	chmod -R 444 abcd.pl xyz.pl 
+	chmod -R 666 abcd.pl xyz.pl 
+	ll
+	chmod -R 555 abcd.pl xyz.pl 
+	ll
+	chmod 777 abcd.pl xyz.pl 
+	chmod 111 abcd.pl xyz.pl 
+ssh
+	ssh 192.168.1.44
+	ssh root@192.168.1.44
+	ssh 192.168.1.44 -p22
+	ssh 192.168.1.44 -p224
+	ssh 192.168.1.44 -p22
+	ssh root@192.168.1.44 -p22
+
+
+ifconfig
+	ifconfig 
+	ifconfig eth0
+
+history
+	history 
+	history | grep "crontab"
+	history | grep "ssh"
+grep
+	grep -ril "mysql_close()" /var/www/html/ConVox3.0/
+	grep -ril --exclude="*.svn*" "mysql_close()" /var/www/html/ConVox3.0/
+	grep -ril --exclude="*.svn*" "convoxccs_breaks.*description" /var/www/html/ConVox3.0/
+	vim  /var/www/html/ConVox3.0/Admin/Module/breaks.php
+	grep -ril --exclude="*.svn*" "insert.*convoxccs_breaks.*description" /var/www/html/ConVox3.0/
+	vim /var/www/html/ConVox3.0/Admin/Module/breaks.php
+	grep -ril --exclude="*.svn*" "INSERT.*convoxccs_breaks.*description" /var/www/html/ConVox3.0/
+	vim /var/www/html/ConVox3.0/Admin/Module/breaks.php
+	grep -rl --exclude="*.svn*" "INSERT.*convoxccs_breaks.*description" /var/www/html/ConVox3.0/
+	grep -rl --exclude="*.svn*" "insert.*convoxccs_breaks.*description" /var/www/html/ConVox3.0/
+	grep -r --exclude="*.svn*" "insert.*convoxccs_breaks.*description" /var/www/html/ConVox3.0/
+	grep -r --exclude="*.svn*" "convoxccs_breaks" /var/www/html/ConVox3.0/
+	grep -rl --exclude="*.svn*" "convoxccs_breaks" /var/www/html/ConVox3.0/
+	grep -rl --exclude="*.svn*" --exclude="*~" "convoxccs_breaks" /var/www/html/ConVox3.0/
+	grep -rl --exclude="*.svn*" --exclude="*~" --exclude="*2017*" "convoxccs_breaks" /var/www/html/ConVox3.0/
+
+find
+	find /var/www/html/ConVox3.0/ -name "breaks.php"
+	find /var/www/html/ConVox3.0/ -name "breaks*"
+	find /var/www/html/ConVox3.0/ -name "breaks*" 
+	find /var/www/html/ConVox3.0/ -name "breaks*"  | grep "svn"
+	find /var/www/html/ConVox3.0/ -name "breaks*"  | grep -v "svn"
+
+	find /root/Desktop/before_implement/ -mtime -3
+	find /root/Desktop/before_implement/ -mtime +3
+	ll /root/Desktop/before_implement/
+	find /root/Desktop/before_implement/ -mmin +30
+	touch /root/Desktop/before_implement/1234.pl
+	find /root/Desktop/before_implement/ -mmin -30
+	find /root/Desktop/before_implement/ -mmin +30
+
+	find /var/www/html/TEST/ -name "*.txt"
+	find /var/www/html/TEST/ -name "*.txt" -exec rm -rf {} \;
+	find /var/www/html/TEST/ -name "*.txt"
+	find /var/www/html/TEST/ -name "*2017*"
+	cd /var/www/html/TEST/
+	find -name "*2017*"
+	find -name "*2017*" -exec rm -rf {} \;
+	find -name "*2017*"
+	find -name "*.svn*"
+	find -name "*.svn*" -exec rm -rf {} \;
+	find -name "*.svn*"
+
+
+locate
+	locate "abcd.pl"
+	locate "*abcd*"
+diff
+	diff /root/Desktop/before_implement/1234.pl /root/Desktop/before_implement/4444.pl
+
+kompare
+	kompare /root/Desktop/before_implement/1234.pl /root/Desktop/before_implement/4444.pl
+
+date
+	date
+	date -s "Thu Apr 13 16:46:24 IST 2017"
+	date
+	date -s "Thu Apr 13 15:46:40 IST 2017"
+	date
+	ntpdate time.windows.com
+init
+	init 6
+	init 0
+uptime
+last reboot
+	last reboot
+	last reboot | less
+
+pgrep
+	grep mysqld
+	pgrep mysqld
+	pgrep httpd
+	pgrep crond
+
+pkill
+	pgrep crond
+	pkill crond
+	pgrep crond
+	pkill -9 crond
+kill
+	mysql
+	pgrep mysqld
+	kill 3374
+	kill -9 3492
+	pgrep mysqld
+	mysql
+
+service
+	service crond status
+	service crond stop
+	service crond status
+	service crond start
+	service crond status
+	service crond stop
+	service crond status
+	service crond restart
+	service mysqld status
+	service mysqld restart
+	service mysqld status
+	mysql
+	service mysqld stop
+	mysql
+	service mysqld status
+	service mysqld start
+
+asterisk
+	asterisk
+	asterisk -r
+	pgrep asterisk
+	pkill -9 asterisk
+	pgrep asterisk
+	asterisk
+	pgrep asterisk
+	kill 15470
+	pgrep asterisk
+	safe_asterisk
+	pgrep asterisk
+	asterisk -rnx "sip show users"
+	asterisk -rnx "sip show peers" 
+	asterisk -rnx "show manager connected" 
+
+screen
+	screen -r
+	screen -wipe
+	ps aux 
+	ps aux | grep "SCREEN"
+	screen -wipe
+	ps aux | grep "convox-sms"
+	vim /usr/share/convox/convox_sms.pl
+	perl -c  /usr/share/convox/convox_sms.pl
+	screen -wipe
+	kill 15121
+	screen -wipe
+	service crond status
+	date
+	screen -wipe
+	vim /usr/share/convox/convox_sms.pl
+	date
+	screen -wipe
+	date
+	screen -wipe
+	pkill convox
+	screen -wipe
+	ps aux | grep convox-waiting-delete
+	pkill waitingcalls
+	screen -wipe
+	
+crontab
+	crontab -e
+	crontab -l
+	crontab -l 
+	crontab -l  > crontab.txt
+	crontab -l 
+	crontab -r
+	crontab -l 
+	crontab < crontab.txt
+	crontab -l 
+	crontab -l
+	crontab -l | grep "*php*"
+	crontab -l | grep "*asterisk*"
+	crontab -l | grep "asterisk"
+	crontab -l | grep "php"
+	crontab -l | grep "asterisk" | grep "stop"
+
+cat
+	cat /root/Desktop/before_implement/1234.pl 
+	cat crontab.txt 
+	cat crontab.txt  > 111.log
+	diff crontab.txt 111.log 
+	cat crontab.txt | grep "pl"
+	cat crontab.txt | grep "aster"
+	cat crontab.txt /root/Desktop/before_implement/1234.pl 
+	cat crontab.txt /root/Desktop/before_implement/1234.pl > total.txt
+	vim total.txt 
+	cat /root/Desktop/before_implement/abcd.pl /root/Desktop/before_implement/1234.pl > 4.txt
+	vim 4.txt 
+	cat /root/Desktop/before_implement/4444.pl /root/Desktop/before_implement/1234.pl > 4.txt
+	vim 4.txt 
+	vim /root/Desktop/before_implement/4444.pl
+	vim 4.txt 
+	wc -l 4.txt 
+	du -h 4.txt 
+	cat /root/Desktop/before_implement/4444.pl /root/Desktop/before_implement/1234.pl > 4.txt
+	wc -l 4.txt 
+	du -h 4.txt 
+	vim 4.txt 
+	cat /root/Desktop/before_implement/4444.pl /root/Desktop/before_implement/1234.pl >> 4.txt
+	wc -l 4.txt 
+	du -h 4.txt 
+
+source
+	source /root/Desktop/before_implement/1234.pl
+	vim command.txt
+	source command.txt 
+	vim command.txt
+	ll ab*
+	source command.txt 
+	ll ab*
+	ll command.txt 
+	./command.txt 
+	chmod -R 111 command.txt
+	ll command.txt 
+	./command.txt 
+	source command.txt 
+setup
+	setup
+	vim /etc/rc.localer -->
                 <div class="faq-body">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit saepe sequi, illum facere
-                        necessitatibus cum aliquam id illo omnis maxime, totam soluta voluptate amet ut sit ipsum
-                        aperiam.
-                        Perspiciatis, porro!</p>
+                    <p>
+                    
+                    </p>
                 </div>
             </div>
             <hr class="hr-line">
