@@ -151,24 +151,24 @@
 		 <p>grep -rl --exclude="*.svn*" "INSERT.*convoxccs_breaks.*description" /var/www/html/ConVox3.0/</p>
 	         <p>grep -rl --exclude="*.svn*" "insert.*convoxccs_breaks.*description" /var/www/html/ConVox3.0/</p>
 	         <p>grep -r --exclude="*.svn*" "insert.*convoxccs_breaks.*description" /var/www/html/ConVox3.0/</p>
-	grep -r --exclude="*.svn*" "convoxccs_breaks" /var/www/html/ConVox3.0/
-	grep -rl --exclude="*.svn*" "convoxccs_breaks" /var/www/html/ConVox3.0/
-	grep -rl --exclude="*.svn*" --exclude="*~" "convoxccs_breaks" /var/www/html/ConVox3.0/
-	grep -rl --exclude="*.svn*" --exclude="*~" --exclude="*2017*" "convoxccs_breaks" /var/www/html/ConVox3.0/
+		 <p>grep -r --exclude="*.svn*" "convoxccs_breaks" /var/www/html/ConVox3.0/</p>
+		 <p>grep -rl --exclude="*.svn*" "convoxccs_breaks" /var/www/html/ConVox3.0/</p>
+		 <p>grep -rl --exclude="*.svn*" --exclude="*~" "convoxccs_breaks" /var/www/html/ConVox3.0/</p>
+	         <p>grep -rl --exclude="*.svn*" --exclude="*~" --exclude="*2017*" "convoxccs_breaks" /var/www/html/ConVox3.0/</p>
 
-find
-	find /var/www/html/ConVox3.0/ -name "breaks.php"
-	find /var/www/html/ConVox3.0/ -name "breaks*"
-	find /var/www/html/ConVox3.0/ -name "breaks*" 
-	find /var/www/html/ConVox3.0/ -name "breaks*"  | grep "svn"
-	find /var/www/html/ConVox3.0/ -name "breaks*"  | grep -v "svn"
+		 <p align="center">find</p>
+		 <p><find /var/www/html/ConVox3.0/ -name "breaks.php"</p>
+	         <p>find /var/www/html/ConVox3.0/ -name "breaks*"</p>
+		 <p>find /var/www/html/ConVox3.0/ -name "breaks*" </p>
+		 <p>find /var/www/html/ConVox3.0/ -name "breaks*"  | grep "svn"</p>
+		 <p>find /var/www/html/ConVox3.0/ -name "breaks*"  | grep -v "svn"</p>
 
-	find /root/Desktop/before_implement/ -mtime -3
-	find /root/Desktop/before_implement/ -mtime +3
-	ll /root/Desktop/before_implement/
-	find /root/Desktop/before_implement/ -mmin +30
-	touch /root/Desktop/before_implement/1234.pl
-	find /root/Desktop/before_implement/ -mmin -30
+		 <p>find /root/Desktop/before_implement/ -mtime -3</p>
+		 <p>find /root/Desktop/before_implement/ -mtime +3</p>
+		 <p>ll /root/Desktop/before_implement/</p>
+		 <p>find /root/Desktop/before_implement/ -mmin +30</p>
+		 <p>touch /root/Desktop/before_implement/1234.pl</p>
+		 <p>find /root/Desktop/before_implement/ -mmin -30</p>
 	find /root/Desktop/before_implement/ -mmin +30
 
 	find /var/www/html/TEST/ -name "*.txt"
