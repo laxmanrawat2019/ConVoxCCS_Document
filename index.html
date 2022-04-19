@@ -19,94 +19,94 @@
             <div class="faq-one">
                 <h1 class="faq-page">Linux Commands</h1>
          <div class="faq-body">
-		 <p align="left">ls</p>
+		 <p align="center">ls</p>
 		 <p>ls /root/Desktop/playdateandtime</p>
 		 <p>ls ../REALSHOPPEE_ALL_BACKUPS</p>
-		 <p align="left">ll</p>
+		 <p align="center">ll</p>
 		 <p>ll -t /root/Desktop/playdateandtime</p>
 		 <p>ll -r../REALSHOPPEE_ALL_BACKUPS/</p>
-cd
-	cd  playdateandtime
-	cd /root/Desktop/playdateandtime
-	cd ../REALSHOPPEE_ALL_BACKUPS/
+		 <p align="center">cd</p>
+		 <p>cd  playdateandtime</p>
+		 <p>cd /root/Desktop/playdateandtime</p>
+		 <p>cd ../REALSHOPPEE_ALL_BACKUPS/</p>
 
-pwd
-mv
-	mv test.pl abcd.pl
-	ll -t
-	ll before_implement
-	mv abcd.pl before_implement/
-	ll before_implement
-	mv before_implement/ /var/www/html/
-	ll /var/www/html/
-	ll /var/www/html/before_implement/
-	ll before_implement
-	mv /var/www/html/before_implement/ .
+		 <p align="center">pwd</p>
+		 <p align="center">mv</p>
+		 <p>mv test.pl abcd.pl</p>
+		 <p align="center">ll -t</p>
+		 <p>ll before_implement</p>
+		 <p>mv abcd.pl before_implement/</p>
+		 <p>ll before_implement</p>
+		 <p>mv before_implement/ /var/www/html/</p>
+		 <p>ll /var/www/html/</p>
+		 <p>ll /var/www/html/before_implement/</p>
+		 <p>ll before_implement</p>
+		 <p>mv /var/www/html/before_implement/</p>
 
-mkdir
-	mkdir /var/www/html/test
-	ll /var/www/html/test/var/w
+		 <p align="center">mkdir</p>
+		 <p>mkdir /var/www/html/test</p>
+		 <p>ll /var/www/html/test/var/</p>
 
-	ll /var/www/html/test
-	mkdir -p test1/test2/test3
-	ll test1/test2/test3
-	ll test1/test2/
-	ll test1/
-	ll test1/test2/test4
-	mkdir -p test1/test2/test4
-	ll
-	mkdir -p test1 test2 test4	
-touch
-	vim test4/abcd.txt
-	touch test4/123.txt
-rm
-	rm -r test4/
-	rm -rf test4/
-	mkdir test4
-	touch test4/123.txt
-	rm test4/123.txt 
-	rm  -f test4/123.txt
+		 <p>ll /var/www/html/test</p>
+		 <p>mkdir -p test1/test2/test3</p>
+		 <p>ll test1/test2/test3</p>
+		 <p>ll test1/test2/</p>
+		 <p>ll test1/</p>
+		 <p>ll test1/test2/test4</p>
+		 <p>mkdir -p test1/test2/test4</p>
+		 <p align="center">ll</p>
+		 <p>mkdir -p test1 test2 test4</p>
+		 <p align="center">touch</p>
+		 <p>vim test4/abcd.txt</p>
+		 <p>touch test4/123.txt</p>
+		 <p align="center">rm</p>
+		 <p>rm -r test4/</p>
+		 <p>rm -rf test4/</p>
+		 <p>mkdir test4</p>
+		 <p>touch test4/123.txt</p>
+		 <p>rm test4/123.txt</p>
+		 <p>rm  -f test4/123.txt</p>
 
-cp
-	cp /root/Desktop/before_implement/abcd.pl .
-	ll
-	cp /root/Desktop/before_implement/abcd.pl .
-	cp /root/Desktop/before_implement/abcd.pl xyz.pl
-	ll
-	cp /root/Desktop/before_implement/abcd.pl abcd.pl
-	pwd
-	cp ../../before_implement/ test4/
-	cp -r ../../before_implement/ test4/
-	ll test4/
-	cp -r ../../before_implement/ test4/
-	cp 123.pl abcd.txt xyz.log /var/www/hml/
-	cp /var/www/hml/123.pl /var/www/hml/abcd.txt /var/www/hml/xyz.log /root/Desktop/
+		 <p align="center">cp</p>
+		 <p>cp /root/Desktop/before_implement/abcd.pl</p>
+	         <p align="center">ll</p>
+		 <p>cp /root/Desktop/before_implement/abcd.pl </p>
+		 <p>cp /root/Desktop/before_implement/abcd.pl xyz.pl</p>
+		 <p align="center">ll</p>
+		 <p>cp /root/Desktop/before_implement/abcd.pl abcd.pl</p>
+		 <p align="center">pwd</p>
+		 <p>cp ../../before_implement/ test4/</p>
+		 <p>cp -r ../../before_implement/ test4/</p>
+		 <p>ll test4/</p>
+		 <p>cp -r ../../before_implement/ test4/</p>
+		 <p>cp 123.pl abcd.txt xyz.log /var/www/hml/</p>
+		 <p>cp /var/www/hml/123.pl /var/www/hml/abcd.txt /var/www/hml/xyz.log /root/Desktop/</p>
 
-scp
-	scp -r ../../before_implement/ test4/
-	scp -r ../../before_implement/ test4/test5/
+		 <p align="center">scp</p>
+		 <p>scp -r ../../before_implement/ test4/</p>
+		 <p>scp -r ../../before_implement/ test4/test5/</p>
 
-	scp test4/before_implement/abcd.pl 192.168.1.4:/root/Desktop/
-	scp test4/before_implement/abcd.pl 192.168.1.44:/root/Desktop/
-	scp test4/before_implement/abcd.pl 192.168.1.44:/root/Desktop/11111.pl
-	scp test4/before_implement/ 192.168.1.44:/root/Desktop/ABCD
-	scp -r test4/before_implement/ 192.168.1.44:/root/Desktop/ABCD
-	scp -r test4/before_implement/ 192.168.1.44:/root/Desktop/ABCD/
-	ll
-	scp  -r 192.168.1.44:/root/Desktop/ABCD/ .
-	scp -P22 total.txt 192.168.1.44:/root/Desktop/
-	rm -rf total.txt 
-	scp -P22 192.168.1.44:/root/Desktop/ /root/
-	scp -P22 192.168.1.44:/root/Desktop/total.txt /root/
-	scp -P224 192.168.1.44:/root/Desktop/total.txt /root/
+		 <p>scp test4/before_implement/abcd.pl 192.168.1.4:/root/Desktop/</p>
+		 <p>scp test4/before_implement/abcd.pl 192.168.1.44:/root/Desktop/</p>
+		 <p>scp test4/before_implement/abcd.pl 192.168.1.44:/root/Desktop/11111.pl</p>
+		 <p>scp test4/before_implement/ 192.168.1.44:/root/Desktop/ABCD</p>
+		 <p>scp -r test4/before_implement/ 192.168.1.44:/root/Desktop/ABCD</p>
+		 <p>scp -r test4/before_implement/ 192.168.1.44:/root/Desktop/ABCD/</p>
+		 <p align="center">ll</p>
+		 <p>scp  -r 192.168.1.44:/root/Desktop/ABCD/ </p>
+		 <p>scp -P22 total.txt 192.168.1.44:/root/Desktop/</p>
+		 <p>rm -rf total.txt </p>
+		 <p>scp -P22 192.168.1.44:/root/Desktop/ /root/</p>
+		 <p>scp -P22 192.168.1.44:/root/Desktop/total.txt /root/</p>
+		 <p>scp -P224 192.168.1.44:/root/Desktop/total.txt /root/</p>
 
 
-ping 
-	ping 192.168.0.193
-	ping 192.168.1.44
-	ping google.com
-	ping googlqqqqqqqqqqqqqqe.com
-	ping 192.168.1.44.88
+		 <p align="center">ping </p>
+		 <p>ping 192.168.0.193</p>
+		 <p>ping 192.168.1.44</p>
+		 <p>ping google.com</p>
+		 <p>ping googlqqqqqqqqqqqqqqe.com</p>
+		 <p>ping 192.168.1.44.88</p>
 
 chmod
 	ll 
